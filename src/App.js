@@ -30,7 +30,7 @@ function App() {
         onOk={handleOk}
         onCancel={handleCancel}
         cancelText="Cancel"
-        okButtonProps={{ disable: false }}
+        okButtonProps={false}
       />
       <button className="show_modal" onClick={() => setShow(!show)}>
         Show Modal

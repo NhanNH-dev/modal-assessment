@@ -17,6 +17,19 @@ The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
 API<br />
-Properties              Description
 
--cancelText	            Text of the Cancel button<br />
+```
+  Properties                Description
+
+  - cancelText	            Text of the Cancel button
+  - content                 Content of the Modal      
+  - title                   Title
+  - background              Backgorund style for modal element.
+  - closeTime               Manually updating and closing a modal after about time.
+  - width                   Width of the modal dialog
+  - clickOutsideToClose     Whether to close the modal dialog when the mask (area outside the modal) is clicked
+  - onOk                    Specify a function that will be called when the user clicks the OK button.
+  - onCancel                Specify a function that will be called when the user clicks the Cancel button.
+  - cancelText              Text of the Cancle button
+  - okButtonProps           The ok button props
+```

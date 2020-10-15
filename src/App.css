@@ -43,7 +43,6 @@
 .modal {
   position: absolute;
   top: 100px;
-  width: 500px;
   background: white;
   border: 1px solid #ccc;
   transition: 1.1s ease-out;
@@ -66,14 +65,18 @@ h3 {
   padding: 1rem;
   margin: 0;
 }
+
 .content {
   padding: 1rem;
 }
+
 .actions {
   border-top: 1px solid #ccc;
   background: #eee;
   padding: 0.5rem 1rem;
+  text-align: end;
 }
+
 button {
   border: 0;
   background: #78f89f;
@@ -82,6 +85,7 @@ button {
   font-size: 0.8rem;
   line-height: 1;
 }
+
 .btnSubmit {
   border: 0;
   background: #4564ca;
@@ -89,4 +93,38 @@ button {
   padding: 0.5rem 0.7rem;
   font-size: 0.7rem;
   line-height: 1;
+}
+
+.btn_Ok{
+  margin-left: 10px;
+}
+
+.btn_x{
+  border: none;
+  background: none;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  position: absolute;
+  right: 0;
+}
+.btn_x:hover{
+  font-size: 0.9rem;
+}
+.btn_x:focus{
+  border-bottom-color: none !important;
+  border-left-color: none !important;
+  border-right-color: none !important;
+  border-top-color: none !important;
+  color: unset !important;
+}
+.show_modal{
+  margin-top: 7vh;
+}
+
+.header_modal{
+  display: flex;
+  justify-content: space-between;
+}
+.title_modal{
+  width: 100%;
 }

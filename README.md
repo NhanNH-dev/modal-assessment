@@ -4,7 +4,7 @@ I didn't use external libraries.
 clone source code at https://github.com/NhanNH-dev/modal-assessment.
 
 then the project to run, you need to: 
-### `npm isntall` 
+### `npm install` 
 
 After installed, you can run:
 
@@ -15,3 +15,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
+
+API<br />
+Properties              Description
+
+-cancelText	            Text of the Cancel button<br />

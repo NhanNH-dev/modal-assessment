@@ -1,8 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 I didn't use external libraries.
 ## Available Scripts
-clone source code at https://github.com/NhanNH-dev/modal-assessment.
-
+clone source code with syntax:<br /> `git clone https://github.com/NhanNH-dev/modal-assessment.git`.<br />
 then the project to run, you need to: 
 ### `npm install` 
 

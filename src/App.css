@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -35,4 +39,54 @@
   to {
     transform: rotate(360deg);
   }
+}
+.modal {
+  position: absolute;
+  top: 100px;
+  width: 500px;
+  background: white;
+  border: 1px solid #ccc;
+  transition: 1.1s ease-out;
+  border-radius: 5px;
+  box-shadow: 
+    -2rem 2rem 2rem rgba(black, 0.2);
+  filter: blur(0);
+  transform: scale(1);  
+  opacity: 1;
+  visibility: visible;
+  text-align: center;
+}
+
+#centered-toggle-button {
+  position: absolute;
+}
+
+h3 {
+  border-bottom: 1px solid #ccc;
+  padding: 1rem;
+  margin: 0;
+}
+.content {
+  padding: 1rem;
+}
+.actions {
+  border-top: 1px solid #ccc;
+  background: #eee;
+  padding: 0.5rem 1rem;
+}
+button {
+  border: 0;
+  background: #78f89f;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  line-height: 1;
+}
+.btnSubmit {
+  border: 0;
+  background: #4564ca;
+  border-radius: 5px;
+  padding: 0.5rem 0.7rem;
+  font-size: 0.7rem;
+  line-height: 1;
 }

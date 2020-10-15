@@ -33,3 +33,4 @@ API<br />
   - cancelText              Text of the Cancle button
   - okButtonProps           The ok button props
 ```
+<img src="https://ibb.co/bvCssjB" width="300">
